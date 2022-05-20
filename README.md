@@ -1,4 +1,4 @@
-# Webpack Started
+# Patrón prototype y decorator con javasScript y modulos
 
 Este es un proyecto donde se implementa el patrón Prototype y el patron estructural Decorator.
 
