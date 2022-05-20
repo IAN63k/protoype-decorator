@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.enemys-view{
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.enemys-view div{
+    position: relative;
+    margin: 5px;
+    height: 150px;
+    min-width: 20px;
+    background-color: #ddd;
+}
+
+.enemys-view img{
+    height: 150px;
+}

@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.enemys-view{
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+    width: 100%;
+    min-height: 20em;
+}
+
+.enemys-view div{
+    position: relative;
+    margin: 5px;
+    height: 150px;
+    min-width: 20px;
+    background-color: #fff;
+}
+
+.enemys-view img{
+    height: 150px;
+    min-width: 70px;
+    border: 1px solid #ddd;
+}
+
+figcaption{
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(228, 19, 19);
+    margin: 2px;
+    color: #fff;
+}
+
+figcaption:nth-child(3){
+    background-color: rgb(70, 170, 70);
+}
+
+figcaption:nth-child(2){
+    background-color: rgb(70, 88, 170);
+}

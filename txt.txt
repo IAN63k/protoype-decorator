@@ -1,0 +1,2 @@
+npm i -D css-minimizer-webpack-plugin terser-webpack-plugin
+npm install -> Recupera los modulos de node
